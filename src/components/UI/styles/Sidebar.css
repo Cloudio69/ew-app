@@ -1,0 +1,50 @@
+.app--sidebar {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(260.25deg, #32b39a -18.42%, #0084a1 117.92%);
+  gap: 1rem;
+  height: 100vh;
+  width: auto;
+  padding: 1rem;
+  padding-right: 3rem;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: "";
+  z-index: 2;
+}
+.app--sidebar.not-active{
+  display: none;
+}
+.app--sidebar.active{
+  display: flex;
+}
+
+.app--sidebar-header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.app--sidebar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.everywhere--ui.sidebar-link > a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.everywhere--ui.sidebar-link > a > span {
+  display: flex;
+}
+.everywhere--ui.sidebar-link > a {
+  color: white;
+  text-decoration: none;
+}
+.sidebar--logo {
+  width: 180px;
+}
+.close--sidebar{
+    color: white;
+}

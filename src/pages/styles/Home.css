@@ -1,0 +1,30 @@
+.everywhere--home{
+    color: white;
+    border-radius: 1rem;
+    height: 100%;
+}
+.everywhere--home.profile-card{
+    display: flex;
+    background: linear-gradient(260.25deg, #32b39a -18.42%, #0084a1 117.92%);
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem;
+    height: fit-content;
+}
+.everywhere--home.profile-actions{
+    display: flex;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+.everywhere--home.profile-actions button{
+    width: 180px;
+}
+.profile--info{
+    display: flex;
+    justify-content: space-between;
+}
+.profile--avatar{
+    display: flex;
+    align-items: center;
+}
